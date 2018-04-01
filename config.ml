@@ -68,6 +68,7 @@ let main =
       package "cstruct";
       package "mirage-logs";
       package "mirage-framebuffer-imagelib";
+      package "duration";
     ] "Unikernel.Main" (time @-> job)
 
 let () =
